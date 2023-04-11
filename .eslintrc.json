@@ -4,6 +4,9 @@
         "node": true
     },
     "extends": [
+        "plugin:import/errors",
+        "plugin:import/warnings",
+        "plugin:import/typescript",
         "airbnb-base"
     ],
     "overrides": [
@@ -17,6 +20,23 @@
         "@typescript-eslint"
     ],
     "rules": {
+        "import/extensions": [
+           "error",
+           "ignorePackages",
+           {
+             "js": "never",
+             "jsx": "never",
+             "ts": "never",
+             "tsx": "never"
+           }
+        ],
         "linebreak-style": 0
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "extensions": [".js", ".jsx", ".ts", ".tsx"]
+            }
+        }
     }
 }
