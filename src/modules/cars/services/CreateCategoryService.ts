@@ -5,7 +5,6 @@ interface IRequest {
     description: string
 }
 
-// Definir o tipo de retorno
 class CreateCategoryService {
   constructor(private categoriesRepository: ICategoriesRepository) {}
 

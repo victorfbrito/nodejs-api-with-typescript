@@ -30,6 +30,8 @@
              "tsx": "never"
            }
         ],
+        "no-useless-constructor": "off",
+        "no-empty-function": "off",
         "linebreak-style": 0,
         "@typescript-eslint/naming-convention": [
             "error",
