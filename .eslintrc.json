@@ -32,6 +32,7 @@
         ],
         "no-useless-constructor": "off",
         "no-empty-function": "off",
+        "no-use-before-define": "off",
         "linebreak-style": 0,
         "@typescript-eslint/naming-convention": [
             "error",
