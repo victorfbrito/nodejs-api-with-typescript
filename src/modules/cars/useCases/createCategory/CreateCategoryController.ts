@@ -13,4 +13,4 @@ class CreateCategoryController {
   }
 }
 
-export default CreateCategoryController;
+export default CreateCategoryController; 
